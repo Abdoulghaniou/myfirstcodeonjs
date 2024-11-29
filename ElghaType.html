@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/ElghaType.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <header>
+    <h1>ElghaType</h1>
+    <h2>Application pour ecrire plus vite</h2>
+    <h3>ElghaType est une application en ligne pour ecrire plus vite</h3>
+   </header>
+    
+<main>
+    <div class="zoneOption">
+        <p>choisissez votre option et tapez votre proposition</p>
+        <div class="optionSource">
+            <input type="radio" name="optionSource"  id="mots" value="1" checked>
+            <label for="mots">Mots</label>
+            <input type="radio" name="optionSource" id="phrases" value="2">
+            <label for="phrases">phrases</label>
+        </div>
+    </div>
+    <div class="zoneProposition">
+        Azerty
+    </div>
+
+    <div class="zoneSaisie">
+        <input type="text" id="inputEcriture" name="inputEcriture">
+        <button id="btnmotValider">Valider</button>
+    </div>
+
+    <div class="zoneScore">
+        votre score : <span>0</span>
+
+    </div>
+</main>
+</body>
+</html>
